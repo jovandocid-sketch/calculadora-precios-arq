@@ -1,101 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora de Precios · UF/m² → UF & CLP</title>
-    <meta name="description" content="Simula el costo de tu proyecto de arquitectura en segundos.">
-    <!-- Google Analytics (rellenar con tu ID GA4) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XXXXXXX');
-    </script>
-    <style>
-      :root {
-        --bg:#fafafa; --fg:#0d0d0d; --muted:#6b7280; --card:#ffffff; --line:#e5e7eb; --brand:#111827;
-      }
-      * { box-sizing: border-box; }
-      html, body { margin:0; padding:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; color:var(--fg); background:var(--bg); }
-      header { max-width: 1100px; margin: 0 auto; padding: 28px 16px 8px; display:flex; justify-content:space-between; align-items:flex-start; gap:16px; }
-      h1 { font-size: clamp(28px, 4.5vw, 44px); line-height:1.05; margin:0; font-weight:800; letter-spacing:-0.02em; }
-      .sub { color: var(--muted); font-size: 14px; margin-top: 2px; }
-      main { max-width: 1100px; margin: 0 auto; padding: 8px 16px 40px; }
-      .grid { display:grid; grid-template-columns: 1fr; gap:16px; }
-      @media (min-width: 900px){ .grid { grid-template-columns: 1fr 1fr; } }
-      .panel { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px; }
-      label { display:block; font-size:14px; color:var(--muted); margin-bottom:6px; }
-      select, input[type="number"] { width:100%; font-size:16px; padding:12px 14px; border:1px solid var(--line); border-radius:10px; background:#fff; }
-      .range { font-size:13px; color:var(--muted); margin-top:8px; }
-      .cards { display:grid; grid-template-columns:1fr; gap:12px; }
-      @media (min-width:700px){ .cards { grid-template-columns: repeat(3, 1fr); } }
-      .card { border:1px solid var(--line); border-radius:14px; padding:14px; background:#fff; }
-      .card small { color: var(--muted); display:block; margin-bottom:6px; }
-      .uf { font-size: 22px; font-weight: 800; }
-      .clp { color:var(--muted); font-weight:600; margin-top:2px; }
-      .base { color: var(--muted); font-size: 12px; margin-top: 10px;}
-      .cta { display:flex; gap:10px; flex-wrap:wrap; margin-top:18px;}
-      .btn { padding:10px 14px; border-radius:10px; border:1px solid var(--line); background:#fff; cursor:pointer; }
-      .btn.primary { background:var(--brand); color:#fff; border-color:var(--brand); }
-      .footer { max-width:1100px; margin:0 auto; padding: 24px 16px 40px; color:var(--muted); font-size:13px; }
-      details { border:1px solid var(--line); border-radius:12px; padding:12px; background:#fff; }
-      summary { cursor:pointer; font-weight:600; }
-      .topbar { display:flex; flex-direction:column; gap:6px; }
-    </style>
   </head>
   <body>
-    <header>
-      <div class="topbar">
-        <h1>Calculadora de Precios · UF/m² → UF & CLP</h1>
-        <div class="sub">Simula el costo de tu proyecto en segundos.</div>
-      </div>
-      <div>
-        <div style="text-align:right; font-weight:600;">J. Ovando Cid<br/> &nbsp;Arquitectos</div>
-      </div>
-    </header>
-    <main>
-      <div class="grid">
-        <section class="panel">
-          <label for="tipo">Tipo / destino</label>
-          <select id="tipo"></select>
-          <div id="ufm2" class="range"></div>
-          <div style="margin-top:12px;">
-            <label for="m2">Superficie (m²)</label>
-            <input id="m2" type="number" min="0" value="100">
-          </div>
-          <div style="margin-top:12px;">
-            <label for="ufclp">Valor UF (CLP)</label>
-            <input id="ufclp" type="number" min="1" value="39428">
-          </div>
-          <div style="margin-top:12px;">
-            <label for="rec">Recargo (%)</label>
-            <input id="rec" type="number" min="0" value="0">
-          </div>
-          <div class="cta">
-            <a class="btn" id="copiar">Copiar resultados</a>
-            <a class="btn" id="pdf">Imprimir / PDF</a>
-            <a class="btn primary" href="mailto:contacto@jovandocid.com">Escríbenos</a>
-          </div>
-        </section>
-        <section class="panel">
-          <div class="cards" id="cards"></div>
-          <div class="base" id="baseTxt"></div>
-          <details style="margin-top:14px;">
-            <summary>¿Qué incluye? (alcance resumido)</summary>
-            <ul>
-              <li>Anteproyecto y Proyecto para Permiso de Edificación</li>
-              <li>Coordinación con especialistas (básica)</li>
-              <li>Entrega digital y memoria</li>
-            </ul>
-          </details>
-        </section>
-      </div>
-    </main>
-    <footer class="footer">
-      Desarrollado por J. Ovando Cid & Arquitectos · Do+Lab
-    </footer>
+    <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

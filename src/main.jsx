@@ -1,8 +1,8 @@
 import React from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './ui/App.jsx'
+import ReactDOM from 'react-dom/client'
 
-createRoot(document.getElementById('root') || (()=>{
-  const r=document.createElement('div'); r.id='root'; document.body.appendChild(r); return r;
-})())
-  .render(<App />)
+function App() {
+  return <h1>Calculadora de Precios · UF/m² → UF & CLP</h1>
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />)
