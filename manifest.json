@@ -1,0 +1,16 @@
+{
+  "name": "Calculadora de Precios",
+  "short_name": "CalcPrecios",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "description": "Calculadora de Precios en UF/m² → UF & CLP, desarrollada por J. Ovando Cid & Do+Lab.",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}

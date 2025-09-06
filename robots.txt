@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://calculadora-precios-arq.vercel.app/sitemap.xml

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Página principal / Calculadora -->
+  <url>
+    <loc>https://calculadora-precios-arq.vercel.app/</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Rangos residenciales -->
+  <url>
+    <loc>https://calculadora-precios-arq.vercel.app/rangos/residencial</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Rangos comerciales -->
+  <url>
+    <loc>https://calculadora-precios-arq.vercel.app/rangos/comercial</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Rangos industriales -->
+  <url>
+    <loc>https://calculadora-precios-arq.vercel.app/rangos/industrial</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Rangos educacionales -->
+  <url>
+    <loc>https://calculadora-precios-arq.vercel.app/rangos/educacional</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Metodología -->
+  <url>
+    <loc>https://calculadora-precios-arq.vercel.app/metodologia</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Sobre nosotros -->
+  <url>
+    <loc>https://calculadora-precios-arq.vercel.app/nosotros</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Preguntas frecuentes -->
+  <url>
+    <loc>https://calculadora-precios-arq.vercel.app/faq</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
+
